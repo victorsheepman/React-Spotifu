@@ -1,0 +1,26 @@
+.playlist{
+    width: 281px;
+    height: 76px;
+    border-radius: 8px;
+    background-color: $color-gray20;
+    display: flex;
+    align-items: center;
+
+    &__title{ 
+        width: 125px;
+        height: 44px;
+        margin-left: 16px;
+        h3{
+            color: $color-white;
+        }
+    }
+    &__image{
+        width: 76px;
+        height: 76px;
+        background-color: $color-primary;
+    }
+    &--light{
+        @extend .playlist;
+        background-color: $color-gray10;
+    }
+}
