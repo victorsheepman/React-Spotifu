@@ -1,3 +1,9 @@
 .layout{
-    
+    display: grid;
+    grid-template-columns: porcentaje(240) porcentaje(1126);
+    grid-template-rows: 62px 618px 88px;
+    grid-template-areas:    'sidebar header'
+                            'sidebar main'
+                            'footer footer';
 }
+
