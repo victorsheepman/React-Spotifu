@@ -7,11 +7,11 @@ export const Footer = () => {
             <Playing />
             <div className='timeline'>
                 <div className='timeline__control'>
-                    <figure>
+                    <figure className='timeline__control__icon'>
                         <img src="assets/icons/prev.svg" alt="" />
                     </figure>
                     <Button type={'button--white'} state={true}/>
-                    <figure>
+                    <figure className='timeline__control__icon'>
                         <img src="assets/icons/next.svg" alt="" />
                     </figure>
                 </div>
