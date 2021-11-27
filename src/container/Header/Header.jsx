@@ -1,6 +1,6 @@
 import React from 'react'
 import { Control } from '../../components/Controls/Control'
-import { User } from '../../components/User/User'
+
 
 export const Header = () => {
     return (
@@ -10,7 +10,7 @@ export const Header = () => {
                 <Control img={"assets/icons/arrow-right.svg"} />
                 <input type="text" placeholder='Artistas, canciones o podcasts'/>
             </div>
-            <User />
+          
         </header>
     )
 }
