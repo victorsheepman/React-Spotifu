@@ -1,0 +1,21 @@
+.playing{   
+    width: 321px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    &__img{
+        width: 56px;
+        height: 56px;
+    }
+    &__body{ 
+        width: 217px;
+        height: 36px;
+        margin-left: 8px;
+    }
+    h5{
+        color: $color-white;
+    }
+    span{
+        color:$color-gray10;
+    }
+}

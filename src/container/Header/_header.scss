@@ -1,0 +1,26 @@
+.header{
+    grid-area: header;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    display: flex;
+    justify-content: space-between;
+    &__search{ 
+        width: 436px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    input{   
+        width: 352px; 
+        height: 40px;
+        border-radius: 20px;
+        padding: 8px 8px 8px 32px;
+        border: unset;
+        background-image: url('assets/icons/search-input.svg');
+        background-size: 16px 16px;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+}
